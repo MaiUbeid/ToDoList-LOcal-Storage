@@ -1,0 +1,26 @@
+{
+  "name": "todolist-local-storage-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dom.js",
+  "scripts": {
+    "test": "node test.js | tap-spec",
+    "cover": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaiUbeid/ToDoList-LOcal-Storage-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaiUbeid/ToDoList-LOcal-Storage-/issues"
+  },
+  "homepage": "https://github.com/MaiUbeid/ToDoList-LOcal-Storage-#readme",
+  "keywords": [],
+  "devDependencies": {
+    "nyc": "^14.1.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  }
+}

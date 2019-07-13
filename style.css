@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.45),  rgba(0, 0, 0, 0.6) ), url(https://cdn.pixabay.com/photo/2018/02/26/09/57/wood-3182655_1280.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    min-height: -webkit-fill-available;
+}
+.heading{
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    margin: 50px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+input[type=text]{
+    border: none;
+    border-radius: 15px;
+    padding: 10px 70px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 70%;
+    height: 30px;
+    opacity: 0.7;
+    font-size: 26px;
+}
+input[type=submit],.todo-container-clear,.item-idSort,.item-descriptionSort,.item-doneSort{
+    background-color: #a7405f;
+    border: none;
+    color: white;
+    padding: 16px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 15px;
+    font-weight: bold;
+}
+.todo-container-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-container-item {
+    list-style-type: none;
+    background-color: #57333e;
+    color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -5px 5px lightslategrey;
+    max-width: 90%;
+    display:block;
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.todo-container-span{
+    width: 80%;
+}
+.item-mark, .item-delete,.item-edit{
+    background-color: #a7405f;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    margin: 3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+.done{
+    background:rgb(81, 156, 37) !important;
+}
+.button-container{
+    display: inline;
+}
